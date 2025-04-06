@@ -32,13 +32,18 @@ cd website-pdf-crawler
 2. Install dependencies
 
 npm install puppeteer fs-extra
+
+
 3. Configure the starting URL
+
+   
 In web_crawler.js, change:
 
 
 const startUrl = 'https://example.com'; // <-- your site here
 
 4. Run the crawler
+
 node web_crawler.js
 
 🗂 Output Example
