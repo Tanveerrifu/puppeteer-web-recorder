@@ -27,30 +27,21 @@ This project is a **headless web crawler built with Puppeteer** that visits all 
 
 ### 1. Clone this repo
 
-```bash
 git clone https://github.com/your-username/website-pdf-crawler.git
 cd website-pdf-crawler
 2. Install dependencies
-bash
-Copy
-Edit
+
 npm install puppeteer fs-extra
 3. Configure the starting URL
 In web_crawler.js, change:
 
-js
-Copy
-Edit
+
 const startUrl = 'https://example.com'; // <-- your site here
+
 4. Run the crawler
-bash
-Copy
-Edit
 node web_crawler.js
+
 🗂 Output Example
-arduino
-Copy
-Edit
 screenshots/
   └── 2025-04-02/
       ├── home/
